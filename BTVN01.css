@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+.navbar-list-item {
+    display: flex;
+    gap: 50px;
+    padding: 10px 24px;
+}
+.navbar .item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+input{
+    width: 60px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgr{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.Y5E6VXEgmcMKCQ2ErklghAHaEH&pid=Api&P=0&h=220");
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 450px;
+}
+.tag{
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 260px;
+}
+b{
+    color: white;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+.footer{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 650px;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: black;
+}
+.number p{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+i{
+    color: white;
+    background-color: black;
+    width:40px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 10%;
+    text-align: center;
+}
